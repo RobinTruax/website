@@ -28,8 +28,8 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "RStudio"
-  orgLocal = "Anywhere"
+  orgName = "Robin Truax"
+  orgLocal = ""
   description = "Robin Truax's personal website."
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
@@ -43,7 +43,7 @@ enableEmoji = true
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/papillons.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+  twitter = "Robin__Truax"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
@@ -88,27 +88,27 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
+      url       = "https://github.com/robintruax"
   [[params.social]]
       icon      = "facebook-square" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
+      url       = "https://www.facebook.com/"
   [[params.social]]
       icon      = "instagram" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://www.instagram.com/explore/tags/apero/"
+      url       = "https://www.instagram.com/robin.truax/"
   [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://twitter.com/hashtag/apéro"
+      url       = "https://twitter.com/Robin__Truax"
   [[params.social]]
       icon      = "impactstory" # icon name without the 'fa-'
       icon_pack = "ai"
-      url       = "https://impactstory.org/u/0000-0002-8082-1890"
+      url       = "https://impactstory.org/u/0000-0002-9981-4500"
   [[params.social]]
       icon      = "orcid" # icon name without the 'fa-'
       icon_pack = "ai"
-      url       = "http://orcid.org/0000-0002-8082-1890"
+      url       = "http://orcid.org/0000-0002-9981-4500"
   [[params.social]]
       icon      = "rss" # icon name without the 'fa-'
       icon_pack = "fas"
@@ -123,7 +123,7 @@ enableEmoji = true
   # Configure header 
   [[menu.header]]
     name = "About"
-    title = "About Blogophonic"
+    title = "About Me"
     url = "/about/"
     weight = 1
   [[menu.header]]
