@@ -33,7 +33,7 @@ enableEmoji = true
   description = "Robin Truax's personal website."
   favicon = "/img/robin-icon-green.png"
   logo = "/img/robin-icon-trans-green.png"
-  mainSections = ["blog", "project", "talk"]
+  mainSections = []
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -120,7 +120,7 @@ enableEmoji = true
   [[menu.header]]
     name = "About"
     title = "About Me"
-    url = "/tbc/"
+    url = "/about/"
     weight = 1
   [[menu.header]]
     name = "The Tree"

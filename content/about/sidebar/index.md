@@ -1,18 +1,18 @@
 ---
 ## Configure sidebar content in narrow column
-author: "Hugo Apéro"
-role: "A Hugo theme"
+author: "Robin Truax"
+role: "Math, Philosophy, and Design"
 avatar_shape: rounded # circle, square, rounded, leave blank to exclude
 show_social_links: true # specify social accounts in site config
-audio_link_label: "How to say my name" # leave blank to exclude
+audio_link_label: 
 link_list_label: "Interests" # bookmarks, elsewhere, etc.
 link_list:
-- name: Paris
-  url: https://en.wikipedia.org/wiki/Paris
-- name: Pastries
-  url: https://en.wikipedia.org/wiki/Pastry
-- name: People
-  url: https://en.wikipedia.org/wiki/People
+- name: Epistemic justice
+  url: https://en.wikipedia.org/wiki/Epistemic_injustice
+- name: Mathematical art and animation
+  url: https://www.manim.community/
+- name: Asian diaspora/queer literature
+  url: https://kenliu.name/blog/book/the-paper-menagerie-and-other-stories/
 ---
 
 ** index doesn't contain a body, just front matter above.

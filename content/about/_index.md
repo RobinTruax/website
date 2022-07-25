@@ -4,7 +4,7 @@ cascade:
 description: |
   About Robin
 show_header: true
-sidebar_left: true
+sidebar_left: false
 title: About
 ---
 
