@@ -2,7 +2,7 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: I am a student of mathematics and political theory. My research is primarily in the fields of combinatorics and algebra, but I am also interested in related applied questions, such as the game theory of voting systems. I am also interested in creating aesthetically beautiful and technologically effective tools for sharing math.
+description: I am a student of mathematics and political theory. My research is primarily in the fields of combinatorics and algebra, but I am also interested in related questions in applied math such as the game theory of voting systems. I am also interested in creating aesthetically beautiful and technologically effective tools for sharing math.
 image_left: false
 images:
 - img/recaman-base.png
