@@ -120,32 +120,32 @@ enableEmoji = true
   [[menu.header]]
     name = "About"
     title = "About Me"
-    url = "/about/"
+    url = "/tbc/"
     weight = 1
   [[menu.header]]
     name = "The Tree"
     title = "My Personal Encyclopedia"
-    url = "/the-tree/"
+    url = "/tbc/"
     weight = 2
   [[menu.header]]
     name = "Creations"
     title = "Posts, Images, and Videos"
-    url = "/creations/"
+    url = "/tbc/"
     weight = 3
   [[menu.header]]
     name = "Design"
     title = "Aesthetic and Instructive"
-    url = "/design/"
+    url = "/tbc/"
     weight = 4
   [[menu.header]]
     name = "Papers"
     title = "Papers and Publications"
-    url = "/papers/"
+    url = "/tbc/"
     weight = 5
   [[menu.header]]
     name = "Misc."
     title = "Miscellaneous"
-    url = "/misc/"
+    url = "/tbc/"
     weight = 6
     
   # Configure footer  
