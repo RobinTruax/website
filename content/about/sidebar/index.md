@@ -9,7 +9,7 @@ link_list_label: "Interests" # bookmarks, elsewhere, etc.
 link_list:
 - name: Epistemic justice
   url: https://en.wikipedia.org/wiki/Epistemic_injustice
-- name: Mathematical art and animation
+- name: Mathematical art/animation
   url: https://www.manim.community/
 - name: Asian diaspora/queer literature
   url: https://kenliu.name/blog/book/the-paper-menagerie-and-other-stories/
