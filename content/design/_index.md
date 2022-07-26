@@ -8,7 +8,7 @@ cascade:
     show_sidebar_adunit: false
     text_link_label: View all design projects
     text_link_url: /design/
-description: Presenting math beautifully.
+description: An instruction manual for stealing my mathematical aesthetic.
 layout: list-grid
 show_author_byline: true
 show_button_links: true

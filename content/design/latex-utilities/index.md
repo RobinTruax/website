@@ -2,7 +2,7 @@
 author: Robin Truax
 categories:
 - Design
-date: "2022-07-26"
+date: "2019-07-26"
 draft: false
 excerpt: Building this static site generator theme was the first time I used an Atomic
   (or Functional) CSS system like Tachyons. It’s a design system that provides very

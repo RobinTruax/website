@@ -18,7 +18,7 @@ links:
 subtitle: A simple LaTeX package for improving readability and accessibility in complex math equations.
 tags:
 - hugo-site
-title: exparrows
+title: "exparrows: a LaTeX package"
 ---
 
 ## `exparrows` makes it easier for readers to understand complicated equations.
