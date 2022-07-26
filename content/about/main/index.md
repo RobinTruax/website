@@ -11,7 +11,7 @@ intro: |
   ### What do I enjoy?
   I have lived all over the United States, but I consider my "hometown" to be Seattle, where I lived the longest. I love reading, particularly where Asian-American and queer literature meets science fiction and magical realism (see Ted Chiang or Ken Liu). I also enjoy playing games, both tabletop games and video games (most recently [Celeste]()). My favorite genres of music are R&B (ex. Emawk or grentperez) and alternative (ex. Mitski or Of Montreal). Reach out to me if we have any interests in common: my email is truax [at] stanford [dot] edu.
   ### Curriculum Vitae
-  You can access my CV [here]().
+  You can access my CV [here](assets/cv.pdf).
 show_outro: true
 outro: |
 ---
