@@ -7,9 +7,9 @@ number_categories: 0 # set to zero to exclude
 show_intro: true
 intro: |
   ### What am I up to?
-  This summer, I am studying combinatorial properties of certain hyperplane arrangements at the Institute for Computational and Experimental Research in Mathematics (ICERM). Afterwards, I shall be returning to Stanford for my third year, where I will continue my research on the mathematics of voting systems while completing my studies.
+  This summer, I am studying combinatorial properties of certain hyperplane arrangements at the [Institute for Computational and Experimental Research in Mathematics (ICERM)](). Afterwards, I shall be returning to Stanford for my third year, where I will continue my research on the mathematics of voting systems while completing my studies.
   ### What do I enjoy?
-  I have lived all over the United States, but I consider my "hometown" to be Seattle, where I lived the longest. I love reading, particularly where Asian-American and queer literature meets science fiction and magical realism (see Ted Chiang or Ken Liu). I also enjoy playing games, both tabletop games and video games (most recently [Celeste]()). My favorite genres of music are R&B (ex. Emawk or grentperez) and alternative (ex. Mitski or Of Montreal). Reach out to me if we have any interests in common: my email is truax [at] stanford [dot] edu.
+  I have lived all over the United States, but I consider my "hometown" to be Seattle, where I lived the longest. I love reading, particularly where Asian-American and queer literature meets science fiction and magical realism (see [Ted Chiang]() or [Ken Liu]()). I also enjoy playing games, both tabletop games and video games (most recently [Celeste]()). My favorite genres of music are R&B (ex. [Emawk]() or [grentperez]()) and alternative (ex. [Mitski]() or [of Montreal]()). Reach out to me if we have any interests in common: my email is truax [at] stanford [dot] edu.
   ### Curriculum Vitae
   You can access my CV [here](cv.pdf).
 show_outro: true
