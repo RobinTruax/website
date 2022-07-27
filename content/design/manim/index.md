@@ -50,11 +50,11 @@ There are three options. You can see a demonstration of all of these options [he
 For this, including the following code: 
 ```
 \begin{figure}
-        \centering
-        \href{video-link}{\includegraphics[width=\textwidth]{image}}
-        \caption{Caption}
-        \label{fig:label}
-    \end{figure}
+    \centering
+    \href{video-link}{\includegraphics[width=\textwidth]{image}}
+    \caption{Caption}
+    \label{fig:label}
+\end{figure}
 ```
 
 Here, `video-link` is a link to a video (probably on YouTube), and `image` is an image to be included in the same folder as the TeX file when compiling (it serves as the thumbnail to click on). This method is not finnicky at all and works everywhere, including in Chrome, as it is simply a hyperlink on an image. However, it breaks immersion, so sometimes another option is better.
