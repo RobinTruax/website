@@ -130,7 +130,7 @@ enableEmoji = true
   [[menu.header]]
     name = "Creations"
     title = "Posts, Images, and Videos"
-    url = "/creations/"
+    url = "/blog/"
     weight = 3
   [[menu.header]]
     name = "Design"
