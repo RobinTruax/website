@@ -2,7 +2,7 @@
 author: Robin Truax
 categories:
 - Design
-date: "2022-07-22"
+date: "2022-07-21"
 draft: false
 excerpt: Creating a LaTeX CV can be finnicky and annoying. In case you like the style of mine and haven't made one before, here is an easy-to-use template that you can use to make your own CV. Adapted from Kumar Saurav's resume template available [here](https://www.overleaf.com/articles/kumar-sauravs-resume/jkfhfqvhckms).
 featured: true
@@ -11,10 +11,11 @@ links:
 - icon: github
   icon_pack: fab
   name: Download
-  url: https://github.com/RobinTruax/autumn
+  url: https://github.com/RobinTruax/cv
 subtitle: "Getting started with LaTeX CVs."
 tags:
 - hugo-site
 title: CV Template
 ---
 
+Creating a LaTeX CV can be finnicky and annoying. In case you like the style of mine and haven't made one before, [here](https://github.com/RobinTruax/cv) is an easy-to-use template that you can use to make your own CV. Adapted from Kumar Saurav's resume template available [here](https://www.overleaf.com/articles/kumar-sauravs-resume/jkfhfqvhckms).
