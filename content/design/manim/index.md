@@ -2,7 +2,7 @@
 author: Robin Truax
 categories:
 - Design
-date: "2022-07-23"
+date: "2022-07-24"
 draft: false
 excerpt: ManimCE is a Python library that allows for the creation of math animations. Originally developed by Grant Sanderson of [3Blue1Brown](3blue1brown.com) and then transformed by a dedicated community into a more accessible tool, ManimCE can be used to create short animations for use in presentations, full-length explainer videos, and everything in between.
 layout: single
@@ -57,7 +57,7 @@ For this, including the following code:
     \end{figure}
 ```
 
-Here, `video-link` is a link to a video (probably on YouTube), and `image` is an image to be included in the folder as the TeX file when compiling which serves as the thumbnail to click on. This method is not finnicky at all and works everywhere, including in Chrome, as it is simply a hyperlink on an image. However, it breaks immersion, so sometimes another option is better.
+Here, `video-link` is a link to a video (probably on YouTube), and `image` is an image to be included in the same folder as the TeX file when compiling (it serves as the thumbnail to click on). This method is not finnicky at all and works everywhere, including in Chrome, as it is simply a hyperlink on an image. However, it breaks immersion, so sometimes another option is better.
 
 #### Using an external video player (medium).
 
