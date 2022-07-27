@@ -78,7 +78,7 @@ Here, `image` is an image to be included in the folder as the TeX file when comp
 For this, one needs the `embed-video.sty` file available in the demo [here](https://github.com/RobinTruax/embedding-video), which is stolen from the StackExchange answer [here](https://tex.stackexchange.com/questions/516029/media9-is-becoming-obsolete-dec-2020-any-alternatives-for-embedding-video-audio). Include it with `\usepackage{embed-video}`, and then include the following code: 
 
 ```
-\embedvideo{\includegraphics[page=1, width=\textwidth]{image}}{video}
+\embedvideo{\includegraphics[width=\textwidth]{image}}{video}
 ```
 
 Here, `image` is an image to be included in the folder as the TeX file when compiling, and serves as the thumbnail to click on, and `video` is the video to be included in the same folder as the **TeX file when compiling**. Now, this method does not break immersion, and the final frame of the video remains on the slide, but there are a few caveats to this method.
