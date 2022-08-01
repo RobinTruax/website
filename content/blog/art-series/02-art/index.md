@@ -1,8 +1,8 @@
 ---
 date: "2022-07-24"
 draft: false
-excerpt: This image depicts the Julia set (that is, the set of initial values which remain bounded under iteration) of a holomorphic extension of the Collatz function (which is initially defined on any positive integers *n* to divide *n* by 2 if *n* is even and multiply *n* by 3 and add 1 otherwise). This results in a fractal representing the complexity of the Collatz Conjecture.
-subtitle: "A Julia set representing the complexity of the Collatz Conjecture"
+excerpt: Chip-firing is a model in dynamical combinatorics in which chips are passed back and forth along the edges of a graph. In this model, one can construct the ''sandpile group'' of a graph; this group's identities have a beautiful fractal-esque structure which can be visualized for certain types of graphs.
+subtitle: "Fractal-esque configurations playing the same role as 0"
 title: Identities of Sandpile Groups
 weight: 3
 ---
