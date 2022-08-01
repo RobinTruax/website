@@ -7,15 +7,62 @@ title: Identities of Sandpile Groups
 weight: 3
 ---
 
-This section contains the code and images I created depicting the Julia set of a holomorphic extension of the Collatz function. Essentially, the way this works is that I took a holomorphic extension of the Collatz function (which is initially defined on any positive integers *n* to divide *n* by 2 if *n* is even and multiply *n* by 3 and add 1 otherwise). This extended function is given by the following formula:
+This section displays the identity element of various sandpile groups. Each raster image of size *n* by *n* was considered as a graph by allowing each pixel to be a node and designating one "off-the-image" node. Then, each pixel has four edges to its adjacent pixels -- if a pixel is on the boundary, then it has an edge (or two edges, for corner pixels) to the "off-the-image" node to ensure it genuinely has 4 edges. Due to the computational complexity of this project, it was done in Julia. 
 
-<img src="images/collatz-function.png" alt="Collatz Function Extended" width=600>
 
-Then, this fractal is given by taking a <a href="https://en.wikipedia.org/wiki/Julia_set">Julia set</a> of this function. A link to the code is <a href="collatz_generator.py" target="_blank">here</a>.
+A link to the code is [here](identity_elements.jl).
 
-<img src="images/collatz1-edited.png" alt="Collatz Fractal 1" width=600>
+**Color legend:**
+ - Color Scheme 1: Blue (0 grains of sand), Light Blue (1 grain of sand), Yellow (2 grains of sand), Maroon (3 grains of sand).
+ - Color Scheme 2: Neon Blue (0 grains of sand), Medium Blue (1 grain of sand), Dark Blue (2 grains of sand), Midnight Blue (3 grains of sand).
+ - Color Scheme 3: Neon Pink (0 grains of sand), Light Purple (1 grain of sand), Dark Purple (2 grains of sand), Midnight Blue (3 grains of sand).
+
+<p><b>10x10 Sandpile Identity Elements:</b></p>
+<img src="images/id_10_c1.png" alt="Sandpile Identity 10x10 Color Scheme 1" width=180>
+<img src="images/id_10_c2.png" alt="Sandpile Identity 10x10 Color Scheme 2" width=180>
+<img src="images/id_10_c3.png" alt="Sandpile Identity 10x10 Color Scheme 3" width=180>
 <p><br></p>
-<img src="images/collatz2-edited.png" alt="Collatz Fractal 2" width=600>
+<p><b>25x25 Sandpile Identity Elements:</b></p>
+<img src="images/id_25_c1.png" alt="Sandpile Identity 25x25 Color Scheme 1" width=180>
+<img src="images/id_25_c2.png" alt="Sandpile Identity 25x25 Color Scheme 2" width=180>
+<img src="images/id_25_c3.png" alt="Sandpile Identity 25x25 Color Scheme 3" width=180>
 <p><br></p>
-<img src="images/collatz3-edited.png" alt="Collatz Fractal 3" width=600>
+<p><b>50x50 Sandpile Identity Elements:</b></p>
+<img src="images/id_50_c1.png" alt="Sandpile Identity 50x50 Color Scheme 1" width=180>
+<img src="images/id_50_c2.png" alt="Sandpile Identity 50x50 Color Scheme 2" width=180>
+<img src="images/id_50_c3.png" alt="Sandpile Identity 50x50 Color Scheme 3" width=180>
 <p><br></p>
+<p><b>100x100 Sandpile Identity Elements:</b></p>
+<img src="images/id_100_c1.png" alt="Sandpile Identity 100x100 Color Scheme 1" width=500>
+<p></p>
+<img src="images/id_100_c2.png" alt="Sandpile Identity 100x100 Color Scheme 2" width=500>
+<p></p>
+<img src="images/id_100_c3.png" alt="Sandpile Identity 100x100 Color Scheme 3" width=500>
+<p><br></p>
+<p><b>200x200 Sandpile Identity Elements:</b></p>
+<img src="images/id_200_c1.png" alt="Sandpile Identity 200x200 Color Scheme 1" width=500>
+<p></p>
+<img src="images/id_200_c2.png" alt="Sandpile Identity 200x200 Color Scheme 2" width=500>
+<p></p>
+<img src="images/id_200_c3.png" alt="Sandpile Identity 200x200 Color Scheme 3" width=500>
+<p><br></p>
+<p><b>500x500 Sandpile Identity Elements:</b></p>
+<img src="images/id_500_c1.png" alt="Sandpile Identity 500x500 Color Scheme 1" width=500>
+<p></p>
+<img src="images/id_500_c2.png" alt="Sandpile Identity 500x500 Color Scheme 2" width=500>
+<p></p>
+<img src="images/id_500_c3.png" alt="Sandpile Identity 500x500 Color Scheme 3" width=500>
+<p><br></p>
+<p><b>1000x1000 Sandpile Identity Elements:</b></p>
+<img src="images/id_1000_c1.png" alt="Sandpile Identity 1000x1000 Color Scheme 1" width=500>
+<p></p>
+<img src="images/id_1000_c2.png" alt="Sandpile Identity 1000x1000 Color Scheme 2" width=500>
+<p></p>
+<img src="images/id_1000_c3.png" alt="Sandpile Identity 1000x1000 Color Scheme 3" width=500>
+<p><br></p>
+<p><b>2000x2000 Sandpile Identity Elements:</b></p>
+<img src="images/id_2000_c1.png" alt="Sandpile Identity 2000x2000 Color Scheme 1" width=500>
+<p></p>
+<img src="images/id_2000_c2.png" alt="Sandpile Identity 2000x2000 Color Scheme 2" width=500>
+<p></p>
+<img src="images/id_2000_c3.png" alt="Sandpile Identity 2000x2000 Color Scheme 3" width=500>
