@@ -8,3 +8,6 @@ layout: single
 subtitle: A technique for non-constructive proofs in discrete math.
 title: How to Make Math Make Choices for You (Discrete Probabilistic Methods)
 ---
+
+<iframe src="/posts/how_to_make_math_make_choices_for_you.pdf" width="100%" height="800px">
+</iframe>

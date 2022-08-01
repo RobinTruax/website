@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.101.0" />
+<title>Identities of Sandpile Groups | Robin Truax</title>
+
+
+<meta property="twitter:site" content="@Robin__Truax">
+<meta property="twitter:creator" content="@Robin__Truax">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="Fractal-esque configurations playing the same role as 0">
+
+
+<meta property="og:site_name" content="Robin Truax">
+<meta property="og:title" content="Identities of Sandpile Groups | Robin Truax">
+<meta property="og:description" content="Fractal-esque configurations playing the same role as 0" />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="/blog/art-series/02-art/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="/blog/art-series/02-art/featured.png" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="/blog/art-series/02-art/featured.png" >
+    
+    
+  <meta itemprop="name" content="Identities of Sandpile Groups">
+<meta itemprop="description" content="This section displays the identity element of various sandpile groups. Each raster image of size n by n was considered as a graph by allowing each pixel to be a node and designating one &ldquo;off-the-image&rdquo; node. Then, each pixel has four edges to its adjacent pixels &ndash; if a pixel is on the boundary, then it has an edge (or two edges, for corner pixels) to the &ldquo;off-the-image&rdquo; node to ensure it genuinely has 4 edges."><meta itemprop="datePublished" content="2022-07-24T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-07-24T00:00:00+00:00" />
+<meta itemprop="wordCount" content="208"><meta itemprop="image" content="/blog/art-series/02-art/featured.png">
+<meta itemprop="keywords" content="" />
+  
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/robin-icon-green.png" type="image/x-icon">
+  <link rel="icon" href="/img/robin-icon-green.png" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.7cee6ca36b02b60665209c097dc2ce5695022e0380b24967f3b0506c12690e3f.css" integrity="sha256-fO5so2sCtgZlIJwJfcLOVpUCLgOAskln87BQbBJpDj8=" media="screen">
+  
+  
+  <script src="/panelset.min.dca42702d7daf6fd31dc352efd2bcf0e4ac8c05ccaa58d9293f6177462de5d5f.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.6176e2507648577db047293cbbdee4727fd47a72e745cb66507199aa67f3d131.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container single-series">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="/" title="Home">
+      <img src="/img/robin-icon-trans-green.png" class="dib db-l h2 w-auto" alt="Robin Truax">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About Me">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/the-tree/" title="My Personal Encyclopedia">The Tree</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/blog/" title="Posts, Images, and Videos">Creations</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/design/" title="Aesthetic and Instructive">Design</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/papers/" title="Papers and Publications">Papers</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/misc/" title="Miscellaneous">Misc.</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+                       
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 pl3-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Identities of Sandpile Groups</h1>
+        <h4 class="f4 mt0 mb4 lh-title measure">Fractal-esque configurations playing the same role as 0</h4>
+        <p class="f6 measure lh-copy mv1">By Robin Truax</p>
+        
+      </header>
+      <section class="post-body pt5 pb4">
+        <p>This section displays the identity element of various sandpile groups. Each raster image of size <em>n</em> by <em>n</em> was considered as a graph by allowing each pixel to be a node and designating one &ldquo;off-the-image&rdquo; node. Then, each pixel has four edges to its adjacent pixels &ndash; if a pixel is on the boundary, then it has an edge (or two edges, for corner pixels) to the &ldquo;off-the-image&rdquo; node to ensure it genuinely has 4 edges. Due to the computational complexity of this project, it was done in Julia.</p>
+<p>A link to the code is 
+<a href="identity_elements.jl">here</a>.</p>
+<p><strong>Color legend:</strong></p>
+<ul>
+<li>Color Scheme 1: Blue (0 grains of sand), Light Blue (1 grain of sand), Yellow (2 grains of sand), Maroon (3 grains of sand).</li>
+<li>Color Scheme 2: Neon Blue (0 grains of sand), Medium Blue (1 grain of sand), Dark Blue (2 grains of sand), Midnight Blue (3 grains of sand).</li>
+<li>Color Scheme 3: Neon Pink (0 grains of sand), Light Purple (1 grain of sand), Dark Purple (2 grains of sand), Midnight Blue (3 grains of sand).</li>
+</ul>
+<p><b>10x10 Sandpile Identity Elements:</b></p>
+<img src="images/id_10_c1.png" alt="Sandpile Identity 10x10 Color Scheme 1" width=180>
+<img src="images/id_10_c2.png" alt="Sandpile Identity 10x10 Color Scheme 2" width=180>
+<img src="images/id_10_c3.png" alt="Sandpile Identity 10x10 Color Scheme 3" width=180>
+<p><br></p>
+<p><b>25x25 Sandpile Identity Elements:</b></p>
+<img src="images/id_25_c1.png" alt="Sandpile Identity 25x25 Color Scheme 1" width=180>
+<img src="images/id_25_c2.png" alt="Sandpile Identity 25x25 Color Scheme 2" width=180>
+<img src="images/id_25_c3.png" alt="Sandpile Identity 25x25 Color Scheme 3" width=180>
+<p><br></p>
+<p><b>50x50 Sandpile Identity Elements:</b></p>
+<img src="images/id_50_c1.png" alt="Sandpile Identity 50x50 Color Scheme 1" width=180>
+<img src="images/id_50_c2.png" alt="Sandpile Identity 50x50 Color Scheme 2" width=180>
+<img src="images/id_50_c3.png" alt="Sandpile Identity 50x50 Color Scheme 3" width=180>
+<p><br></p>
+<p><b>100x100 Sandpile Identity Elements:</b></p>
+<img src="images/id_100_c1.png" alt="Sandpile Identity 100x100 Color Scheme 1" width=500>
+<p></p>
+<img src="images/id_100_c2.png" alt="Sandpile Identity 100x100 Color Scheme 2" width=500>
+<p></p>
+<img src="images/id_100_c3.png" alt="Sandpile Identity 100x100 Color Scheme 3" width=500>
+<p><br></p>
+<p><b>200x200 Sandpile Identity Elements:</b></p>
+<img src="images/id_200_c1.png" alt="Sandpile Identity 200x200 Color Scheme 1" width=500>
+<p></p>
+<img src="images/id_200_c2.png" alt="Sandpile Identity 200x200 Color Scheme 2" width=500>
+<p></p>
+<img src="images/id_200_c3.png" alt="Sandpile Identity 200x200 Color Scheme 3" width=500>
+<p><br></p>
+<p><b>500x500 Sandpile Identity Elements:</b></p>
+<img src="images/id_500_c1.png" alt="Sandpile Identity 500x500 Color Scheme 1" width=500>
+<p></p>
+<img src="images/id_500_c2.png" alt="Sandpile Identity 500x500 Color Scheme 2" width=500>
+<p></p>
+<img src="images/id_500_c3.png" alt="Sandpile Identity 500x500 Color Scheme 3" width=500>
+<p><br></p>
+<p><b>1000x1000 Sandpile Identity Elements:</b></p>
+<img src="images/id_1000_c1.png" alt="Sandpile Identity 1000x1000 Color Scheme 1" width=500>
+<p></p>
+<img src="images/id_1000_c2.png" alt="Sandpile Identity 1000x1000 Color Scheme 2" width=500>
+<p></p>
+<img src="images/id_1000_c3.png" alt="Sandpile Identity 1000x1000 Color Scheme 3" width=500>
+<p><br></p>
+<p><b>2000x2000 Sandpile Identity Elements:</b></p>
+<img src="images/id_2000_c1.png" alt="Sandpile Identity 2000x2000 Color Scheme 1" width=500>
+<p></p>
+<img src="images/id_2000_c2.png" alt="Sandpile Identity 2000x2000 Color Scheme 2" width=500>
+<p></p>
+<img src="images/id_2000_c3.png" alt="Sandpile Identity 2000x2000 Color Scheme 3" width=500>
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="/blog/art-series/01-art/">&larr; Rock-Paper-Scissors Automata</a>
+  
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="/blog/art-series/03-art/">Collatz Fractals &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+      
+<div class="post-comments pa0 pa4-l mt4">
+  
+  <script src="https://utteranc.es/client.js"
+          repo="robintruax/website"
+          issue-term="pathname"
+          theme="boxy-light"
+          label="comments :crystal_ball:"
+          crossorigin="anonymous"
+          async
+          type="text/javascript">
+  </script>
+  
+</div>
+
+    
+  </section>
+</main>
+
+<aside class="page-sidebar" role="complementary">
+                         
+ 
+
+
+                       
+ 
+
+
+
+
+
+
+
+
+
+
+
+  <img src="/blog/sidebar-listing-big.gif" class="db ma0">
+
+
+<div class="blog-info ph4 pt4 pb4 pb0-l">
+  
+
+  <h1 class="f3">Mathematical Art</h1>
+  <p class="f6 lh-copy measure">This is all of the mathematical art, usually programmatically generated, that I&rsquo;ve made which I think is beautiful or interesting enough to share.</p>
+  <p class="f7 measure lh-copy i mh0-l">Written by Robin Truax</p>
+
+
+  
+</div>
+
+
+                         
+ 
+
+
+
+<div class="flex items-start sticky ph4 pb4">
+  <div class="w-two-thirds w-50-l ph0">
+    
+    <h2 class="mt3 mb3 f5 fw7 ttu tracked"><a class="no-underline dim" href="/blog/art-series/">In this series</a></h2>
+    <nav id="SeriesTableOfContents">
+        <ul>
+        
+          
+          <li class="" hugo-nav="/blog/art-series/01-art/"><a href="/blog/art-series/01-art/">Rock-Paper-Scissors Automata</a></li>
+        
+          
+          <li class="active" hugo-nav="/blog/art-series/02-art/"><a href="/blog/art-series/02-art/">Identities of Sandpile Groups</a></li>
+        
+          
+          <li class="" hugo-nav="/blog/art-series/03-art/"><a href="/blog/art-series/03-art/">Collatz Fractals</a></li>
+        
+          
+          <li class="" hugo-nav="/blog/art-series/04-art/"><a href="/blog/art-series/04-art/">Math Shirt Ideas</a></li>
+        
+        </ul>
+      </nav>
+  </div>
+  
+</div>
+</aside>
+
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2022 Robin Truax
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.youtube.com/channel/UC0v8o-2ik-zeqFG8gBU5b1Q" title="youtube" target="_blank" rel="noopener">
+      <i class="fab fa-youtube fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.instagram.com/robin.truax/" title="instagram" target="_blank" rel="noopener">
+      <i class="fab fa-instagram fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/Robin__Truax" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/robintruax" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="http://orcid.org/0000-0002-9981-4500" title="orcid" target="_blank" rel="noopener">
+      <i class="ai ai-orcid fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://scholar.google.com/citations?user=wzQhUwEAAAAJ" title="google-scholar" target="_blank" rel="noopener">
+      <i class="ai ai-google-scholar fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+    </div>
+  </nav>
+  
+    <script>
+
+    var i, text, code, codes = document.getElementsByTagName('code');
+    for (let i = 0; i < codes.length;) {
+      code = codes[i];
+      if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+        text = code.textContent;
+        if (/^\$[^$]/.test(text) && /[^$]\$$/.test(text)) {
+          text = text.replace(/^\$/, '\\(').replace(/\$$/, '\\)');
+          code.textContent = text;
+        }
+        if (/^\\\((.|\s)+\\\)$/.test(text) ||
+            /^\\\[(.|\s)+\\\]$/.test(text) ||
+            /^\$(.|\s)+\$$/.test(text) ||
+            /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+          code.outerHTML = code.innerHTML;  
+          continue;
+        }
+      }
+      i++;
+    }
+</script>
+
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+
+
+    
+  
+  
+</footer>
+
+      </div>
+    </body>
+</html>

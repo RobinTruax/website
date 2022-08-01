@@ -6,3 +6,6 @@ subtitle: "Diophantine Equations, Elliptic Curves, and Fermat Factorization"
 title: Why is Algebra Important in Number Theory?
 weight: 2
 ---
+
+<iframe src="/posts/why_is_algebra_important_in_number_theory.pdf" width="100%" height="800px">
+</iframe>

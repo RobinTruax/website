@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robin&#39;s Creations on Robin Truax</title>
+    <link>/blog/</link>
+    <description>Recent content in Robin&#39;s Creations on Robin Truax</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Epistemic Injustice and Why It&#39;s So Important</title>
+      <link>/blog/epistemic-justice/</link>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/epistemic-justice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is a &#34;Portal&#34;? (Why Math is Beautiful)</title>
+      <link>/blog/what-is-a-portal/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/what-is-a-portal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to Make Math Make Choices for You (Discrete Probabilistic Methods)</title>
+      <link>/blog/make-math-make-choices/</link>
+      <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/make-math-make-choices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sum-Free Subsets of Finite Abelian Groups</title>
+      <link>/blog/sum-free-subsets-of-finite-abelian-groups/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/sum-free-subsets-of-finite-abelian-groups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functors, Natural Transformations, and Adjoints</title>
+      <link>/blog/functors-natural-transformations-adjoints/</link>
+      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/functors-natural-transformations-adjoints/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What Distinguishes Category Theory? (Elements vs. Maps)</title>
+      <link>/blog/what-distinguishes-category-theory/</link>
+      <pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/what-distinguishes-category-theory/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,3 +6,7 @@ subtitle: "Ramsey Theory"
 title: A Party of Six
 weight: 3
 ---
+
+<iframe width="360" height="640"
+  src="animated-proof-1.mp4">
+</iframe>

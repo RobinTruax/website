@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Robin Truax</title>
+    <link>/series/</link>
+    <description>Recent content in Series on Robin Truax</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Video Animations</title>
+      <link>/series/video-animations/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/series/video-animations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathematical Art</title>
+      <link>/series/mathematical-art/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/series/mathematical-art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why is Algebra Important?</title>
+      <link>/series/why-is-algebra-important/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/series/why-is-algebra-important/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

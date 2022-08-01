@@ -8,3 +8,6 @@ layout: single
 subtitle: The category-theoretic perspective.
 title: What Distinguishes Category Theory? (Elements vs. Maps)
 ---
+
+<iframe src="/posts/what_distinguishes_category_theory.pdf" width="100%" height="800px">
+</iframe>

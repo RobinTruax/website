@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on Robin Truax</title>
+    <link>/categories/design/</link>
+    <description>Recent content in Design on Robin Truax</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>exparrows</title>
+      <link>/design/exparrows/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/design/exparrows/</guid>
+      <description>exparrows makes it easier for readers to understand complicated equations. exparrows is a simple LaTeX package that allows one to easily insert customizable arrows pointing to parts of your equations. Adapted from Sibin Mohan&amp;rsquo;s examples on Twitter, exparrows can improve the readability of long equations by clarifying the role of each term in the equation with a colorful annotation. exparrows allows one to create arrows with many customization options: whether or not they point to one or two places in the code, the direction and color of the arrows, etc.</description>
+    </item>
+    
+    <item>
+      <title>autumn</title>
+      <link>/design/autumn-beamer/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/design/autumn-beamer/</guid>
+      <description>Autumn is a minimalist Beamer theme in red, green, and brown. autumn is a clean Beamer theme with the same color scheme as my website: deep reds, dry greens, and rich browns. Avoiding gradients and complicated periphery, the theme relies on clean lines and serif headers to distinguish itself. It is my personal ideal Beamer theme, but if you like it, you&amp;rsquo;re welcome to it.
+Download the theme and an example presentation here.</description>
+    </item>
+    
+    <item>
+      <title>LaTeX Utilies</title>
+      <link>/design/latex-utilities/</link>
+      <pubDate>Sun, 24 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/design/latex-utilities/</guid>
+      <description>When creating LaTeX documents, there are a few objects which are particularly annoying to code by hand: graphs, commutative diagrams, tables, etc. In these cases, it&amp;rsquo;s useful to know about online tools or applications which can accelerate the process. This is a continually updated list of useful tools that I&amp;rsquo;ve run across.
+DeTeXify DeTeXify is a tool which recognizes symbols from handwriting. If you ever spot a symbol which you don&amp;rsquo;t know how to use in a paper and are able to recreate it in handwriting, chances are that DeTeXify will recognize it.</description>
+    </item>
+    
+    <item>
+      <title>ManimCE &#43; Video in Beamer</title>
+      <link>/design/manim/</link>
+      <pubDate>Sun, 24 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/design/manim/</guid>
+      <description>Notes About ManimCE ManimCE is a Python library that allows for the creation of math animations. Originally developed by Grant Sanderson of 3Blue1Brown and then transformed by a dedicated community into a more accessible tool, ManimCE can be used to create short animations for use in presentations, full-length explainer videos, and everything in between.
+I used Manim to create the animation on my homepage, as well as the video A Tale of Three Triangles, my entry for the Summer of Math Exposition #1.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Apéro</title>
+      <link>/design/hugo-apero/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/design/hugo-apero/</guid>
+      <description>Hugo Apéro is the theme I used to create this website. It&amp;rsquo;s easily customizable and requires little-to-no programming experience; a day of trial-and-error following the &amp;lsquo;&amp;lsquo;Get Started&amp;rsquo;&amp;rsquo; series was enough to get the hang of the essential operations. There&amp;rsquo;s not much to say beyond &amp;ldquo;follow the get started page, it&amp;rsquo;s excellent&amp;rdquo;. Even the &amp;ldquo;animation&amp;rdquo; I created for the main page is just a GIF that I made (using ManimCE) in the usual spot for the image.</description>
+    </item>
+    
+    <item>
+      <title>CV Template</title>
+      <link>/design/cv-template/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/design/cv-template/</guid>
+      <description>Creating a LaTeX CV can be finnicky and annoying. In case you like the style of mine and haven&amp;rsquo;t made one before, here is an easy-to-use template that you can use to make your own CV. Adapted from Kumar Saurav&amp;rsquo;s resume template available here.</description>
+    </item>
+    
+  </channel>
+</rss>

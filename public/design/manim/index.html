@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.101.0" />
+<title>ManimCE &#43; Video in Beamer | Robin Truax</title>
+
+
+<meta property="twitter:site" content="@Robin__Truax">
+<meta property="twitter:creator" content="@Robin__Truax">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="A programmatic animation tool for visualizing math, and a series of hacky solutions for putting them in math talks.">
+
+
+<meta property="og:site_name" content="Robin Truax">
+<meta property="og:title" content="ManimCE &#43; Video in Beamer | Robin Truax">
+<meta property="og:description" content="A programmatic animation tool for visualizing math, and a series of hacky solutions for putting them in math talks." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="/design/manim/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="/design/manim/featured-hex.png" >
+        <meta property="twitter:card" content="summary">
+        <meta name="twitter:image" content="/design/manim/featured-hex.png" >
+    
+    
+  <meta itemprop="name" content="ManimCE &#43; Video in Beamer">
+<meta itemprop="description" content="Notes About ManimCE ManimCE is a Python library that allows for the creation of math animations. Originally developed by Grant Sanderson of 3Blue1Brown and then transformed by a dedicated community into a more accessible tool, ManimCE can be used to create short animations for use in presentations, full-length explainer videos, and everything in between.
+I used Manim to create the animation on my homepage, as well as the video A Tale of Three Triangles, my entry for the Summer of Math Exposition #1."><meta itemprop="datePublished" content="2022-07-24T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-07-24T00:00:00+00:00" />
+<meta itemprop="wordCount" content="785"><meta itemprop="image" content="/design/manim/featured-hex.png">
+<meta itemprop="keywords" content="hugo-site," />
+  
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/robin-icon-green.png" type="image/x-icon">
+  <link rel="icon" href="/img/robin-icon-green.png" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.7cee6ca36b02b60665209c097dc2ce5695022e0380b24967f3b0506c12690e3f.css" integrity="sha256-fO5so2sCtgZlIJwJfcLOVpUCLgOAskln87BQbBJpDj8=" media="screen">
+  
+  
+  <script src="/panelset.min.dca42702d7daf6fd31dc352efd2bcf0e4ac8c05ccaa58d9293f6177462de5d5f.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.6176e2507648577db047293cbbdee4727fd47a72e745cb66507199aa67f3d131.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container single">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="/" title="Home">
+      <img src="/img/robin-icon-trans-green.png" class="dib db-l h2 w-auto" alt="Robin Truax">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About Me">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/the-tree/" title="My Personal Encyclopedia">The Tree</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/blog/" title="Posts, Images, and Videos">Creations</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/design/" title="Aesthetic and Instructive">Design</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/papers/" title="Papers and Publications">Papers</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/misc/" title="Miscellaneous">Misc.</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">ManimCE &#43; Video in Beamer</h1>
+        <h4 class="f4 mt0 mb4 lh-title measure">A programmatic animation tool for visualizing math, and a series of hacky solutions for putting them in math talks.</h4>
+        <p class="f6 measure lh-copy mv1">By Robin Truax in <a href="/categories/design">Design</a> </p>
+        <p class="f7 db mv0 ttu">July 24, 2022</p>
+
+      
+      <div class="ph0 pt5">
+        
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="https://docs.manim.community/en/stable/" target="_blank" rel="noopener"><i class="fas fa-book fa-lg fa-fw mr2"></i>Documentation</a>
+
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="https://docs.manim.community/en/stable/installation.html" target="_blank" rel="noopener"><i class="fas fa-download fa-lg fa-fw mr2"></i>Download</a>
+
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="https://github.com/RobinTruax/embedding-video" target="_blank" rel="noopener"><i class="fas fa-download fa-lg fa-fw mr2"></i>Video in Beamer</a>
+
+
+      </div>
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        
+
+
+
+<h3 id="notes-about-manimce">Notes About ManimCE
+  <a href="#notes-about-manimce"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>ManimCE is a Python library that allows for the creation of math animations. Originally developed by Grant Sanderson of 
+<a href="3blue1brown.com">3Blue1Brown</a> and then transformed by a dedicated community into a more accessible tool, ManimCE can be used to create short animations for use in presentations, full-length explainer videos, and everything in between.</p>
+<p>I used Manim to create the animation on my 
+<a href="/">homepage</a>, as well as the video 
+<a href="https://www.youtube.com/watch?v=5nuYD2M2AX8" target="_blank" rel="noopener">A Tale of Three Triangles</a>, my entry for the Summer of Math Exposition #1.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5nuYD2M2AX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Following is another animation that I made using Manim for one of my resarch projects. It shows the transformation between a hyperplane arrangement (in this case, a projection of the Shi arrangement for <em>n</em> = 3) and a graph encoding the adjacency relations of this arrangement (in this case, it is called the Shi adjacency graph). This is a simple animation, just about 50 lines of code.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NCSb1YVd0ZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Manim has excellent documentation, but my number one piece of advice for using Manim is to join their Discord server (even if you don&rsquo;t usually use the site). It&rsquo;s an incredibly helpful community of the most experienced ManimCE users (including essentially all the developers), and their help channels have come in handy on many occassions. An invite link is given on the documentation site. I am also available to answer most questions (email me, I&rsquo;ll try to respond when I have time), as by now I have tens of thousands of lines of code in experience with the library.</p>
+
+
+
+
+<h3 id="embedding-manimce-animations-in-beamer">Embedding ManimCE Animations in Beamer
+  <a href="#embedding-manimce-animations-in-beamer"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>I am a strong believer in the idea that now that we have the technology to create animations, they have a place in math exposition, even in formal settings such as conference talks. The above animation in conjunction with the formal definition of the Shi adjacency graph is far more pedagogically effective than the definition alone. Unfortunately, since Beamer is standard for math conference talks, and Beamer produces PDFs, including video requires some special workarounds (which have become harder since the Adobe dropped support for Flash).</p>
+<p>There are three options. You can see a demonstration of all of these options 
+<a href="https://github.com/RobinTruax/embedding-video" target="_blank" rel="noopener">here</a>.</p>
+
+
+
+
+<h4 id="using-a-link-to-a-video-online-easy">Using a link to a video online (easy).
+  <a href="#using-a-link-to-a-video-online-easy"></a>
+</h4>
+<p>For this, including the following code:</p>
+<pre tabindex="0"><code>\begin{figure}
+    \centering
+    \href{video-link}{\includegraphics[width=\textwidth]{image}}
+    \caption{Caption}
+    \label{fig:label}
+\end{figure}
+</code></pre><p>Here, <code>video-link</code> is a link to a video (probably on YouTube), and <code>image</code> is an image to be included in the same folder as the TeX file when compiling (it serves as the thumbnail to click on). This method is not finnicky at all and works everywhere, including in Chrome, as it is simply a hyperlink on an image. However, it breaks immersion, so sometimes another option is better.</p>
+
+
+
+
+<h4 id="using-an-external-video-player-medium">Using an external video player (medium).
+  <a href="#using-an-external-video-player-medium"></a>
+</h4>
+<p>For this, include the following code:</p>
+<pre tabindex="0"><code>\begin{frame}
+    \centering
+    \movie[externalviewer]{\includegraphics[width=0.5\textwidth]{image}}{video}
+\end{frame}
+</code></pre><p>Here, <code>image</code> is an image to be included in the folder as the TeX file when compiling, and serves as the thumbnail to click on, and <code>video</code> is a video to be included in the same folder as the <strong>finished PDF presentation file when you&rsquo;re presenting</strong>. The only caveat to this method is that it only works in some PDF readers (including Adobe Acrobat but not Chrome). Now, this breaks immersion less, but it still does break it. Furthermore, it can be nice to have the final frame of the video remain on the slide, so that one can keep discussing the result once the animation is done and still seamlessly transition to the next slide. For this, we have the final option.</p>
+
+
+
+
+<h4 id="embedding-a-video-player-hard">Embedding a video player (hard).
+  <a href="#embedding-a-video-player-hard"></a>
+</h4>
+<p>For this, one needs the <code>embed-video.sty</code> file available in the demo 
+<a href="https://github.com/RobinTruax/embedding-video" target="_blank" rel="noopener">here</a>, which is stolen from the StackExchange answer 
+<a href="https://tex.stackexchange.com/questions/516029/media9-is-becoming-obsolete-dec-2020-any-alternatives-for-embedding-video-audio" target="_blank" rel="noopener">here</a>. Include it with <code>\usepackage{embed-video}</code>, and then include the following code:</p>
+<pre tabindex="0"><code>\embedvideo{\includegraphics[width=\textwidth]{image}}{video}
+</code></pre><p>Here, <code>image</code> is an image to be included in the folder as the TeX file when compiling, and serves as the thumbnail to click on, and <code>video</code> is the video to be included in the same folder as the <strong>TeX file when compiling</strong>. Now, this method does not break immersion, and the final frame of the video remains on the slide, but there are a few caveats to this method.</p>
+<ul>
+<li>Besides being more annoying to set up, this only works in some PDF viewers, for example Adobe Acrobat. Furthermore, one needs to approve multimedia playback the first time one opens the PDF.</li>
+<li>Pausing is frustrating. One must double click to make the video fullscreen, and then single click to pause or unpause the video. There are no other controls.</li>
+<li>To reset the video (so you can play it again), right click the video and select &ldquo;Disable content&rdquo; in the pop-up menu which appears. This resets the video to the thumbnail, so you can play it again.</li>
+</ul>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">July 24, 2022</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">4 minute read, 785 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="/categories/design">Design</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Tags:</dt>
+    <dd class="fw5 ml0"> <a href="/tags/hugo-site">hugo-site</a> </dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+    <dd class="fw5 ml0"><a href="/misc/willow/">Willow</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/design/exparrows/">exparrows</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/design/autumn-beamer/">autumn</a></dd>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="/design/latex-utilities/">&larr; LaTeX Utilies</a>
+  
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="/design/hugo-apero/">Hugo Apéro &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2022 Robin Truax
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.youtube.com/channel/UC0v8o-2ik-zeqFG8gBU5b1Q" title="youtube" target="_blank" rel="noopener">
+      <i class="fab fa-youtube fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.instagram.com/robin.truax/" title="instagram" target="_blank" rel="noopener">
+      <i class="fab fa-instagram fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/Robin__Truax" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/robintruax" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="http://orcid.org/0000-0002-9981-4500" title="orcid" target="_blank" rel="noopener">
+      <i class="ai ai-orcid fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://scholar.google.com/citations?user=wzQhUwEAAAAJ" title="google-scholar" target="_blank" rel="noopener">
+      <i class="ai ai-google-scholar fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+    </div>
+  </nav>
+  
+    <script>
+
+    var i, text, code, codes = document.getElementsByTagName('code');
+    for (let i = 0; i < codes.length;) {
+      code = codes[i];
+      if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+        text = code.textContent;
+        if (/^\$[^$]/.test(text) && /[^$]\$$/.test(text)) {
+          text = text.replace(/^\$/, '\\(').replace(/\$$/, '\\)');
+          code.textContent = text;
+        }
+        if (/^\\\((.|\s)+\\\)$/.test(text) ||
+            /^\\\[(.|\s)+\\\]$/.test(text) ||
+            /^\$(.|\s)+\$$/.test(text) ||
+            /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+          code.outerHTML = code.innerHTML;  
+          continue;
+        }
+      }
+      i++;
+    }
+</script>
+
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+
+
+    
+  
+  
+</footer>
+
+      </div>
+    </body>
+</html>

@@ -6,3 +6,7 @@ subtitle: "The Catalan Numbers and Reflection"
 title: A Gambler's Game
 weight: 2
 ---
+
+<iframe width="360" height="640"
+  src="animated-proof-2.mp4">
+</iframe>

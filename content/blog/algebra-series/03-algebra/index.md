@@ -6,3 +6,6 @@ subtitle: "The Fundamental Group and Corollaries"
 title: Why is Algebra Important in Topology?
 weight: 3
 ---
+
+<iframe src="/posts/why_is_algebra_important_in_topology.pdf" width="100%" height="800px">
+</iframe>

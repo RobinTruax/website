@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Why is Algebra Important? on Robin Truax</title>
+    <link>/series/why-is-algebra-important/</link>
+    <description>Recent content in Why is Algebra Important? on Robin Truax</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 21 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/series/why-is-algebra-important/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why is Algebra Important in Combinatorics?</title>
+      <link>/blog/algebra-series/01-algebra/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/algebra-series/01-algebra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why is Algebra Important in Number Theory?</title>
+      <link>/blog/algebra-series/02-algebra/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/algebra-series/02-algebra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why is Algebra Important in Topology?</title>
+      <link>/blog/algebra-series/03-algebra/</link>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/algebra-series/03-algebra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why is Algebra Important?</title>
+      <link>/blog/algebra-series/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/algebra-series/</guid>
+      <description>** No content below YAML for the series _index. This file is a leaf bundle, and provides settings for the listing page layout and sidebar content.**</description>
+    </item>
+    
+  </channel>
+</rss>

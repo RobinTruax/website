@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robin Truax</title>
+    <link>/</link>
+    <description>Recent content on Robin Truax</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Tale of Three Triangles</title>
+      <link>/blog/videos-series/01-videos/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/videos-series/01-videos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rock-Paper-Scissors Automata</title>
+      <link>/blog/art-series/01-art/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/art-series/01-art/</guid>
+      <description>In this piece, there is a grid of pixels in three colors: one representing rock, one representing paper, and one representing scissors. When at least 3 of the 8 neighbors of any given pixel are the color which &amp;ldquo;beats&amp;rdquo; the pixel&amp;rsquo;s color (that is, when the color which beats it has a plurality among its neighbors), the pixel switches to that color. The system, which is randomly initializes, quickly forms a pattern but never settles into a stable configuration: waves of rock, paper, and scissors cross the screen.</description>
+    </item>
+    
+    <item>
+      <title>Why is Algebra Important in Combinatorics?</title>
+      <link>/blog/algebra-series/01-algebra/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/algebra-series/01-algebra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identities of Sandpile Groups</title>
+      <link>/blog/art-series/02-art/</link>
+      <pubDate>Sun, 24 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/art-series/02-art/</guid>
+      <description>This section displays the identity element of various sandpile groups. Each raster image of size n by n was considered as a graph by allowing each pixel to be a node and designating one &amp;ldquo;off-the-image&amp;rdquo; node. Then, each pixel has four edges to its adjacent pixels &amp;ndash; if a pixel is on the boundary, then it has an edge (or two edges, for corner pixels) to the &amp;ldquo;off-the-image&amp;rdquo; node to ensure it genuinely has 4 edges.</description>
+    </item>
+    
+    <item>
+      <title>Why is Algebra Important in Number Theory?</title>
+      <link>/blog/algebra-series/02-algebra/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/algebra-series/02-algebra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Gambler&#39;s Game</title>
+      <link>/blog/videos-series/02-videos/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/videos-series/02-videos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collatz Fractals</title>
+      <link>/blog/art-series/03-art/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/art-series/03-art/</guid>
+      <description>This section contains the code and images I created depicting the Julia set of a holomorphic extension of the Collatz function. Essentially, the way this works is that I took a holomorphic extension of the Collatz function (which is initially defined on any positive integers n to divide n by 2 if n is even and multiply n by 3 and add 1 otherwise). This extended function is given by the following formula:</description>
+    </item>
+    
+    <item>
+      <title>Why is Algebra Important in Topology?</title>
+      <link>/blog/algebra-series/03-algebra/</link>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/algebra-series/03-algebra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Party of Six</title>
+      <link>/blog/videos-series/03-videos/</link>
+      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/videos-series/03-videos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math Shirt Ideas</title>
+      <link>/blog/art-series/04-art/</link>
+      <pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/art-series/04-art/</guid>
+      <description>This post has art that I created a few years ago with a friend, Sonia, to make designs that would look good on math shirts. This is something of a dumping ground for those designs, so apologies for the lack of formatting and explanations.</description>
+    </item>
+    
+    <item>
+      <title>Epistemic Injustice and Why It&#39;s So Important</title>
+      <link>/blog/epistemic-justice/</link>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/epistemic-justice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is a &#34;Portal&#34;? (Why Math is Beautiful)</title>
+      <link>/blog/what-is-a-portal/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/what-is-a-portal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exparrows</title>
+      <link>/design/exparrows/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/design/exparrows/</guid>
+      <description>exparrows makes it easier for readers to understand complicated equations. exparrows is a simple LaTeX package that allows one to easily insert customizable arrows pointing to parts of your equations. Adapted from Sibin Mohan&amp;rsquo;s examples on Twitter, exparrows can improve the readability of long equations by clarifying the role of each term in the equation with a colorful annotation. exparrows allows one to create arrows with many customization options: whether or not they point to one or two places in the code, the direction and color of the arrows, etc.</description>
+    </item>
+    
+    <item>
+      <title>Papers and Publications</title>
+      <link>/papers/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/</guid>
+      <description>Repetitions of Pak-Stanley Labels in G-Shi Arrangements (2022)Given a simple graph G, one can define a hyperplane arrangement called the G-Shi arrangement. The Pak-Stanley algorithm labels the regions of this arrangement with G-parking functions. When G is a complete graph, the Pak-Stanley labels give a bijection with ordinary parking functions. However, for proper subgraphs G ⊂ Kn, while the Pak-Stanley labels still include every G-parking function, they may repeat a parking function multiple times.</description>
+    </item>
+    
+    <item>
+      <title>The Tree</title>
+      <link>/the-tree/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/the-tree/</guid>
+      <description>Whenever I read a book, I try to create notes for myself on the most important parts. When I think that a set of notes I&#39;ve made that I think are polished enough to be helpful in some capacity, they are added to The Tree, making a sort of personal encyclopedia of mathematics. My hope is that by the time that I graduate, the Tree will be roughly complete. Indeed, about half of these sections have been completed, they just haven&#39;t been polished yet (and therefore will be added in the coming weeks).</description>
+    </item>
+    
+    <item>
+      <title>Willow</title>
+      <link>/misc/willow/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/misc/willow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>autumn</title>
+      <link>/design/autumn-beamer/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/design/autumn-beamer/</guid>
+      <description>Autumn is a minimalist Beamer theme in red, green, and brown. autumn is a clean Beamer theme with the same color scheme as my website: deep reds, dry greens, and rich browns. Avoiding gradients and complicated periphery, the theme relies on clean lines and serif headers to distinguish itself. It is my personal ideal Beamer theme, but if you like it, you&amp;rsquo;re welcome to it.
+Download the theme and an example presentation here.</description>
+    </item>
+    
+    <item>
+      <title>LaTeX Utilies</title>
+      <link>/design/latex-utilities/</link>
+      <pubDate>Sun, 24 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/design/latex-utilities/</guid>
+      <description>When creating LaTeX documents, there are a few objects which are particularly annoying to code by hand: graphs, commutative diagrams, tables, etc. In these cases, it&amp;rsquo;s useful to know about online tools or applications which can accelerate the process. This is a continually updated list of useful tools that I&amp;rsquo;ve run across.
+DeTeXify DeTeXify is a tool which recognizes symbols from handwriting. If you ever spot a symbol which you don&amp;rsquo;t know how to use in a paper and are able to recreate it in handwriting, chances are that DeTeXify will recognize it.</description>
+    </item>
+    
+    <item>
+      <title>ManimCE &#43; Video in Beamer</title>
+      <link>/design/manim/</link>
+      <pubDate>Sun, 24 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/design/manim/</guid>
+      <description>Notes About ManimCE ManimCE is a Python library that allows for the creation of math animations. Originally developed by Grant Sanderson of 3Blue1Brown and then transformed by a dedicated community into a more accessible tool, ManimCE can be used to create short animations for use in presentations, full-length explainer videos, and everything in between.
+I used Manim to create the animation on my homepage, as well as the video A Tale of Three Triangles, my entry for the Summer of Math Exposition #1.</description>
+    </item>
+    
+    <item>
+      <title>How to Make Math Make Choices for You (Discrete Probabilistic Methods)</title>
+      <link>/blog/make-math-make-choices/</link>
+      <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/make-math-make-choices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo Apéro</title>
+      <link>/design/hugo-apero/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/design/hugo-apero/</guid>
+      <description>Hugo Apéro is the theme I used to create this website. It&amp;rsquo;s easily customizable and requires little-to-no programming experience; a day of trial-and-error following the &amp;lsquo;&amp;lsquo;Get Started&amp;rsquo;&amp;rsquo; series was enough to get the hang of the essential operations. There&amp;rsquo;s not much to say beyond &amp;ldquo;follow the get started page, it&amp;rsquo;s excellent&amp;rdquo;. Even the &amp;ldquo;animation&amp;rdquo; I created for the main page is just a GIF that I made (using ManimCE) in the usual spot for the image.</description>
+    </item>
+    
+    <item>
+      <title>Sum-Free Subsets of Finite Abelian Groups</title>
+      <link>/blog/sum-free-subsets-of-finite-abelian-groups/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/sum-free-subsets-of-finite-abelian-groups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CV Template</title>
+      <link>/design/cv-template/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/design/cv-template/</guid>
+      <description>Creating a LaTeX CV can be finnicky and annoying. In case you like the style of mine and haven&amp;rsquo;t made one before, here is an easy-to-use template that you can use to make your own CV. Adapted from Kumar Saurav&amp;rsquo;s resume template available here.</description>
+    </item>
+    
+    <item>
+      <title>Functors, Natural Transformations, and Adjoints</title>
+      <link>/blog/functors-natural-transformations-adjoints/</link>
+      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/functors-natural-transformations-adjoints/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What Distinguishes Category Theory? (Elements vs. Maps)</title>
+      <link>/blog/what-distinguishes-category-theory/</link>
+      <pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/what-distinguishes-category-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 25 Feb 2019 13:38:41 -0600</pubDate>
+      
+      <guid>/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contributors</title>
+      <link>/contributors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contributors/</guid>
+      <description>Thank you to all the folks who have contributed both technical and creative skills to this project:
+Desirée De Leon 🦒 (designed 5 of the custom color themes, made illustrations for the workshop, and provided general aesthetic feedback along the way)
+Garrick Aden-Buie 🧙‍♀️ (debugged headroom.js and lent his panelset.js code to the theme)
+Allison Horst 🐕 (awesome illustrations of campfires, seedlings, and evergreens, as well as my R Markdown hedgehog mascot 🦔)</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/license/</guid>
+      <description>My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.</description>
+    </item>
+    
+  </channel>
+</rss>

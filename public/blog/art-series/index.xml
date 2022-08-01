@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathematical Art on Robin Truax</title>
+    <link>/blog/art-series/</link>
+    <description>Recent content in Mathematical Art on Robin Truax</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/blog/art-series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rock-Paper-Scissors Automata</title>
+      <link>/blog/art-series/01-art/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/art-series/01-art/</guid>
+      <description>In this piece, there is a grid of pixels in three colors: one representing rock, one representing paper, and one representing scissors. When at least 3 of the 8 neighbors of any given pixel are the color which &amp;ldquo;beats&amp;rdquo; the pixel&amp;rsquo;s color (that is, when the color which beats it has a plurality among its neighbors), the pixel switches to that color. The system, which is randomly initializes, quickly forms a pattern but never settles into a stable configuration: waves of rock, paper, and scissors cross the screen.</description>
+    </item>
+    
+    <item>
+      <title>Identities of Sandpile Groups</title>
+      <link>/blog/art-series/02-art/</link>
+      <pubDate>Sun, 24 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/art-series/02-art/</guid>
+      <description>This section displays the identity element of various sandpile groups. Each raster image of size n by n was considered as a graph by allowing each pixel to be a node and designating one &amp;ldquo;off-the-image&amp;rdquo; node. Then, each pixel has four edges to its adjacent pixels &amp;ndash; if a pixel is on the boundary, then it has an edge (or two edges, for corner pixels) to the &amp;ldquo;off-the-image&amp;rdquo; node to ensure it genuinely has 4 edges.</description>
+    </item>
+    
+    <item>
+      <title>Collatz Fractals</title>
+      <link>/blog/art-series/03-art/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/art-series/03-art/</guid>
+      <description>This section contains the code and images I created depicting the Julia set of a holomorphic extension of the Collatz function. Essentially, the way this works is that I took a holomorphic extension of the Collatz function (which is initially defined on any positive integers n to divide n by 2 if n is even and multiply n by 3 and add 1 otherwise). This extended function is given by the following formula:</description>
+    </item>
+    
+    <item>
+      <title>Math Shirt Ideas</title>
+      <link>/blog/art-series/04-art/</link>
+      <pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/art-series/04-art/</guid>
+      <description>This post has art that I created a few years ago with a friend, Sonia, to make designs that would look good on math shirts. This is something of a dumping ground for those designs, so apologies for the lack of formatting and explanations.</description>
+    </item>
+    
+  </channel>
+</rss>

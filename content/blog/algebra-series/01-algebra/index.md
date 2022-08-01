@@ -6,3 +6,6 @@ subtitle: "The Orbit-Stabilizer Theorem and Burnside's Lemma"
 title: Why is Algebra Important in Combinatorics?
 weight: 1
 ---
+
+<iframe src="/posts/why_is_algebra_important_in_combinatorics.pdf" width="100%" height="800px">
+</iframe>

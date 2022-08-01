@@ -8,3 +8,6 @@ layout: single
 subtitle: The nuts and bolts of three important properties in category theory.
 title: Functors, Natural Transformations, and Adjoints
 ---
+
+<iframe src="/posts/functors_natural_transformations_and_adjoints_the_nuts_and_bolts.pdf" width="100%" height="800px">
+</iframe>
