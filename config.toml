@@ -123,19 +123,19 @@ enableEmoji = true
     url = "/about/"
     weight = 1
   [[menu.header]]
+    name = "Design"
+    title = "Aesthetic and Instructive"
+    url = "/design/"
+    weight = 2
+  [[menu.header]]
     name = "The Tree"
     title = "My Personal Encyclopedia"
     url = "/the-tree/"
-    weight = 2
+    weight = 3
   [[menu.header]]
     name = "Creations"
     title = "Posts, Images, and Videos"
     url = "/blog/"
-    weight = 3
-  [[menu.header]]
-    name = "Design"
-    title = "Aesthetic and Instructive"
-    url = "/design/"
     weight = 4
   [[menu.header]]
     name = "Papers"
