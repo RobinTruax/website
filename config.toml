@@ -94,6 +94,10 @@ enableEmoji = true
       icon_pack = "fab"
       url       = "https://www.instagram.com/robin.truax/"
   [[params.social]]
+      icon      = "spotify" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://open.spotify.com/user/vm4ykgrfazl98feky2akodn05?si=a3539abd02b441dc"
+  [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://twitter.com/Robin__Truax"
