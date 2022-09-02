@@ -9,3 +9,5 @@ weight: 1
 
 <iframe src="/posts/why_is_algebra_important_in_combinatorics.pdf" width="100%" height="800px">
 </iframe>
+
+Image credit: Cartoon image of a Rubik's Cube created and distributed by vectorstock.

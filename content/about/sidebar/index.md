@@ -11,7 +11,7 @@ link_list:
   url: https://en.wikipedia.org/wiki/Epistemic_injustice
 - name: Mathematical art/animation
   url: https://www.manim.community/
-- name: Asian diaspora/queer literature
+- name: Asian diaspora literature
   url: https://kenliu.name/blog/book/the-paper-menagerie-and-other-stories/
 ---
 

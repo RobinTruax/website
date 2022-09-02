@@ -4,7 +4,7 @@ categories:
 - Design
 date: "2022-07-24"
 draft: false
-excerpt: ManimCE is a Python library that allows for the creation of math animations. Originally developed by Grant Sanderson of [3Blue1Brown](3blue1brown.com) and then transformed by a dedicated community into a more accessible tool, ManimCE can be used to create short animations for use in presentations, full-length explainer videos, and everything in between.
+excerpt: ManimCE is a Python library that allows for the creation of math animations. Originally developed by Grant Sanderson of [3Blue1Brown](3blue1brown.com) and then transformed by a dedicated community into a more accessible tool, ManimCE can be used to create short animations for use in presentations, full-length explainer videos, and everything in between. These animations can even be incorporated into Beamer presentations with the right techniques, which are also explained in this article.
 layout: single
 links: 
 - icon: book

@@ -2,7 +2,7 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: "I am a student of mathematics and political theory. My research is primarily in combinatorics and algebra, but I am also interested in related questions in applied math, such as the game theory of voting systems. Finally, I work to create aesthetically beautiful and technologically effective tools for sharing math. My CV is [here](about/cv.pdf)."
+description: "I am a student of [mathematics](blog/what-is-a-portal/), political theory, and the theory of computation. My research is primarily in combinatorics and algebra, but I am also interested in questions in applied math using these tools, such as the game theory of voting systems and various complexity-theoretic questions. Finally, I work to create aesthetically beautiful and technologically effective tools for sharing math. My CV is [here](about/cv.pdf)."
 image_left: false
 images: 
  - img/Recaman-Final.gif
