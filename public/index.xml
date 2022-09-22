@@ -31,16 +31,7 @@
       <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>/blog/algebra-series/01-algebra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Identities of Sandpile Groups</title>
-      <link>/blog/art-series/02-art/</link>
-      <pubDate>Sun, 24 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/art-series/02-art/</guid>
-      <description>This section displays the identity element of various sandpile groups. Each raster image of size n by n was considered as a graph by allowing each pixel to be a node and designating one &amp;ldquo;off-the-image&amp;rdquo; node. Then, each pixel has four edges to its adjacent pixels &amp;ndash; if a pixel is on the boundary, then it has an edge (or two edges, for corner pixels) to the &amp;ldquo;off-the-image&amp;rdquo; node to ensure it genuinely has 4 edges.</description>
+      <description>Image credit: Cartoon image of a Rubik&amp;rsquo;s Cube created and distributed by vectorstock.</description>
     </item>
     
     <item>
@@ -49,7 +40,7 @@
       <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>/blog/algebra-series/02-algebra/</guid>
-      <description></description>
+      <description></description>
     </item>
     
     <item>
@@ -59,6 +50,15 @@
       
       <guid>/blog/videos-series/02-videos/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Identities of Sandpile Groups</title>
+      <link>/blog/art-series/02-art/</link>
+      <pubDate>Sun, 24 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/art-series/02-art/</guid>
+      <description>This section displays the identity element of various sandpile groups. Each raster image of size n by n was considered as a graph by allowing each pixel to be a node and designating one &amp;ldquo;off-the-image&amp;rdquo; node. Then, each pixel has four edges to its adjacent pixels &amp;ndash; if a pixel is on the boundary, then it has an edge (or two edges, for corner pixels) to the &amp;ldquo;off-the-image&amp;rdquo; node to ensure it genuinely has 4 edges.</description>
     </item>
     
     <item>
@@ -76,7 +76,7 @@
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>/blog/algebra-series/03-algebra/</guid>
-      <description></description>
+      <description></description>
     </item>
     
     <item>
@@ -103,7 +103,8 @@
       <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>/blog/epistemic-justice/</guid>
-      <description></description>
+      <description>Epistemology
+Epistemology refers to the study of knowledge: what qualifies as “knowledge”, what types of knowledge exist, and ways that knowledge can be gained. A popular conception of epistemology casts it as theoretical, even philosophically reclusive. After all, the most famous argument for what we can “know” is solipsism: the idea that input to our senses can be fabricates, and the only thing which we cannot doubt is our own existence, for the very act of doubting proves that cognition (and therefore our consciousness) exists.</description>
     </item>
     
     <item>
@@ -112,7 +113,7 @@
       <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>/blog/what-is-a-portal/</guid>
-      <description></description>
+      <description>Many people have tried and failed to communicate how mathematicians feel about math. When someone asks a pure mathematician why they enjoy math, the mathematician will likely comment about math&#39;s intrinsic beauty, or how it is art as much as science. This is true: pure mathematicians, by and large, are motivated by curiousity and an artistic perspective. However, it&#39;s more difficult to express why a particular theorem is beautiful than to argue why it is useful, and so many people still don&#39;t understand why math is so alluring to its practitioners.</description>
     </item>
     
     <item>
@@ -187,7 +188,7 @@ I used Manim to create the animation on my homepage, as well as the video A Tale
       <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>/blog/make-math-make-choices/</guid>
-      <description></description>
+      <description></description>
     </item>
     
     <item>
@@ -205,7 +206,7 @@ I used Manim to create the animation on my homepage, as well as the video A Tale
       <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>/blog/sum-free-subsets-of-finite-abelian-groups/</guid>
-      <description></description>
+      <description></description>
     </item>
     
     <item>
@@ -223,7 +224,7 @@ I used Manim to create the animation on my homepage, as well as the video A Tale
       <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>/blog/functors-natural-transformations-adjoints/</guid>
-      <description></description>
+      <description></description>
     </item>
     
     <item>
@@ -232,7 +233,7 @@ I used Manim to create the animation on my homepage, as well as the video A Tale
       <pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>/blog/what-distinguishes-category-theory/</guid>
-      <description></description>
+      <description></description>
     </item>
     
     <item>
@@ -242,6 +243,15 @@ I used Manim to create the animation on my homepage, as well as the video A Tale
       
       <guid>/contact/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/google7037dc85282bfefa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/google7037dc85282bfefa/</guid>
+      <description>google-site-verification: google7037dc85282bfefa.</description>
     </item>
     
     <item>

@@ -11,14 +11,14 @@
     <loc>/blog/algebra-series/01-algebra/</loc>
     <lastmod>2022-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/art-series/02-art/</loc>
-    <lastmod>2022-07-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/blog/algebra-series/02-algebra/</loc>
     <lastmod>2022-07-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/videos-series/02-videos/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/art-series/02-art/</loc>
+    <lastmod>2022-07-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/art-series/03-art/</loc>
     <lastmod>2022-07-22T00:00:00+00:00</lastmod>
@@ -130,6 +130,9 @@
   </url><url>
     <loc>/form/</loc>
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>
+  </url><url>
+    <loc>/google7037dc85282bfefa/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>/about/</loc>
   </url><url>
