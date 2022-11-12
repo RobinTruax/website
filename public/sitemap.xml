@@ -62,7 +62,7 @@
     <loc>/categories/miscellaneous/</loc>
     <lastmod>2022-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/misc/</loc>
+    <loc>/art/</loc>
     <lastmod>2022-07-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/papers/</loc>
@@ -83,7 +83,10 @@
     <loc>/blog/videos-series/</loc>
     <lastmod>2022-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/misc/willow/</loc>
+    <loc>/art/willow/</loc>
+    <lastmod>2022-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/willow/</loc>
     <lastmod>2022-07-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/design/autumn-beamer/</loc>

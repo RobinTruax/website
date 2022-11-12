@@ -9,8 +9,6 @@ excerpt: Willow is my family and I's cat, and she's about two years old. As far 
 
 layout: single
 subtitle: The cat which ruined all other cats for me.
-tags:
-- hugo-site
 title: "Willow"
 ---
 

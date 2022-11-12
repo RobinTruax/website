@@ -8,7 +8,7 @@ images:
  - img/Recaman-Final.gif
 show_action_link: true
 show_social_links: true
-subtitle: Math, Philosophy, and Design
+subtitle: Math, Philosophy, and Art
 text_align_left: true
 title: Robin Truax
 type: home

@@ -128,18 +128,18 @@ enableEmoji = true
     weight = 1
   [[menu.header]]
     name = "Design"
-    title = "Aesthetic and Instructive"
+    title = "Beautiful Math"
     url = "/design/"
     weight = 2
-  [[menu.header]]
-    name = "The Tree"
-    title = "My Personal Encyclopedia"
-    url = "/the-tree/"
-    weight = 3
   [[menu.header]]
     name = "Creations"
     title = "Posts, Images, and Videos"
     url = "/blog/"
+    weight = 3
+  [[menu.header]]
+    name = "Art"
+    title = "Photography and Writing"
+    url = "/art/"
     weight = 4
   [[menu.header]]
     name = "Papers"
@@ -147,9 +147,9 @@ enableEmoji = true
     url = "/papers/"
     weight = 5
   [[menu.header]]
-    name = "Misc."
-    title = "Miscellaneous"
-    url = "/misc/"
+    name = "The Tree"
+    title = "My Personal Encyclopedia"
+    url = "/the-tree/"
     weight = 6
     
   # Configure footer  

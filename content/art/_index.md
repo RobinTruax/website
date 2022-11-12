@@ -8,7 +8,7 @@ cascade:
     show_sidebar_adunit: false
     text_link_label: View my miscellaneous posts
     text_link_url: /misc/
-description: Anything which doesn't fit into the other categories.
+description: Photography and writing, eventually.
 layout: list-grid
 show_author_byline: true
 show_button_links: true
@@ -21,7 +21,7 @@ sidebar:
   text_link_label: ""
   text_link_url: ""
   title: 
-title: Miscellaneous
+title: Art
 ---
 
 ** No content for the project index. This file provides front matter for the blog including the layout and boolean options. **
