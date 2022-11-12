@@ -2,7 +2,7 @@
 author: Robin Truax
 categories:
 - Photography
-date: "2022-11-11"
+date: "2022-10-26"
 draft: false
 excerpt: 2022, Silver Gelatin Prints.
 
