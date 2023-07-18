@@ -17,7 +17,7 @@ show_post_date: true
 show_post_thumbnail: true
 sidebar:
   author: Robin Truax
-  description: "Here is all my work other than publications: animations and explainer videos that I've created, images of mathematical art, or expository blog posts which don't fit into The Tree."
+  description: "Here is all my work other than publications: notes, animations and explainer videos, mathematical art, or expository blog posts which don't fit into The Tree."
   show_sidebar_adunit: false
   text_link_label: 
   text_link_url: /index.xml
