@@ -1,14 +1,34 @@
 [[redirects]]
 from = "/papers/*"
-to = "/papers/404.html"
+to = "/papers/index.html"
 status = 404
 
 [[redirects]]
-from = "/test/*"
-to = "/t.html"
+from = "/papers/*"
+to = "/papers/index.html"
 status = 404
 
 [[redirects]]
-from = "/test"
-to = "/t.html"
+from = "/papers/*"
+to = "/papers/index.html"
+status = 404
+
+[[redirects]]
+from = "/papers/*"
+to = "/papers/index.html"
+status = 404
+
+[[redirects]]
+from = "/papers/*"
+to = "/papers/index.html"
+status = 404
+
+[[redirects]]
+from = "/papers/*"
+to = "/papers/index.html"
+status = 404
+
+[[redirects]]
+from = "/papers/*"
+to = "/papers/index.html"
 status = 404
