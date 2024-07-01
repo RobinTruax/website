@@ -5,5 +5,5 @@ status = 404
 
 [[redirects]]
 from = "/test"
-to = "/404.html"
+to = "/t.html"
 status = 404
