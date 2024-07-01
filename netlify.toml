@@ -2,3 +2,8 @@
 from = "/papers/*"
 to = "/papers/404.html"
 status = 404
+
+[[redirects]]
+from = "/test"
+to = "/404.html"
+status = 404
